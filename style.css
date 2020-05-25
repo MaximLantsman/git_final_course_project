@@ -96,3 +96,24 @@ image {
 .student .img {
   height: 100px;
 }
+
+/* mobile */
+
+@media (max-width: 680px) {
+  .hosts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .host {
+    margin: 1rem 0;
+  }
+
+  .students {
+    flex-direction: column;
+  }
+
+  .student {
+    margin: 1rem 0;
+  }
+}
