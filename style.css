@@ -1,0 +1,98 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,500;1,900&display=swap");
+
+/*  general */
+* {
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: "Rubik", sans-serif;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  direction: rtl;
+}
+
+image {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+.img {
+  height: 150px;
+}
+.l-heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.m-heading {
+  font-size: 1.3rem;
+  font-size: 300;
+}
+
+/* hosts */
+
+.hosts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+.host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.image-details {
+  color: black;
+}
+
+/* students */
+
+.students-heading {
+  margin: 1.5rem 0;
+}
+.students {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  grid-gap: 1rem;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.student {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(74, 174, 236);
+}
+
+.students .image-details {
+  color: white;
+}
+
+.student .img {
+  height: 100px;
+}
